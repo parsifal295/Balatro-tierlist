@@ -223,9 +223,9 @@ const tierLabelKo: Record<TierListId, Record<string, string>> = {
 
 const valueKo: Record<string, string> = {
   Common: "일반",
-  Uncommon: "고급",
-  Rare: "희귀",
-  Legendary: "전설",
+  Uncommon: "희귀",
+  Rare: "레어",
+  Legendary: "레전더리",
   Deck: "덱",
   "Planet Card": "행성 카드",
   "Tarot Card": "타로 카드",

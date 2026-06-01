@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   getEffectText,
+  getFacetLabel,
   getItemName,
   getJokerTypeLabel,
   getListCopy,
@@ -47,5 +48,12 @@ describe("i18n helpers", () => {
     expect(t("en").jokerType).toBe("Joker type");
     expect(getJokerTypeLabel("multiplicativeMult", "ko")).toBe("곱배수");
     expect(getJokerTypeLabel("cardGeneration", "en")).toBe("Card generation");
+  });
+
+  it("uses the official Korean rarity labels", () => {
+    expect(getFacetLabel("Common", "ko")).toBe("일반");
+    expect(getFacetLabel("Uncommon", "ko")).toBe("희귀");
+    expect(getFacetLabel("Rare", "ko")).toBe("레어");
+    expect(getFacetLabel("Legendary", "ko")).toBe("레전더리");
   });
 });

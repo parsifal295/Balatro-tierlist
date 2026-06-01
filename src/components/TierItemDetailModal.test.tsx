@@ -34,6 +34,7 @@ describe("TierItemDetailModal", () => {
     });
 
     expect(screen.queryByText("분류")).not.toBeInTheDocument();
+    expect(screen.getByText("레전더리")).toBeInTheDocument();
     expect(screen.getByText("조커 종류")).toBeInTheDocument();
     expect(screen.getByText("곱배수, 성장형, 카드 파괴")).toBeInTheDocument();
   });
