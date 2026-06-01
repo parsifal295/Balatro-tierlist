@@ -1,0 +1,955 @@
+{
+  "decks": [
+    {
+      "name": "Red Deck",
+      "effect": "+1 discard every round",
+      "unlock": "Unlocked from start",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/24/Red_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231252",
+      "category": "Deck"
+    },
+    {
+      "name": "Blue Deck",
+      "effect": "+1 hand every round",
+      "unlock": "Discover at least 20 items from your collection",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/24/Blue_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231327",
+      "category": "Deck"
+    },
+    {
+      "name": "Yellow Deck",
+      "effect": "Start with extra $10",
+      "unlock": "Discover at least 50 items from your collection",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/d7/Yellow_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231403",
+      "category": "Deck"
+    },
+    {
+      "name": "Green Deck",
+      "effect": "At end of each Round: $2 per remaining Hand $1 per remaining Discard Earn no Interest",
+      "unlock": "Discover at least 75 items from your collection",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/12/Green_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231426",
+      "category": "Deck"
+    },
+    {
+      "name": "Black Deck",
+      "effect": "+1 Joker slot -1 hand every round",
+      "unlock": "Discover at least 100 items from your collection",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/20/Black_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231449",
+      "category": "Deck"
+    },
+    {
+      "name": "Magic Deck",
+      "effect": "Start run with the Crystal Ball voucher and 2 copies of The Fool",
+      "unlock": "Win a run with the Red Deck on any difficulty",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/c3/Magic_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231514",
+      "category": "Deck"
+    },
+    {
+      "name": "Nebula Deck",
+      "effect": "Start run with the Telescope voucher -1 consumable slot",
+      "unlock": "Win a run with the Blue Deck on any difficulty",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/12/Nebula_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231539",
+      "category": "Deck"
+    },
+    {
+      "name": "Ghost Deck",
+      "effect": "Spectral cards may appear in the shop, start with a Hex card",
+      "unlock": "Win a run with the Yellow Deck on any difficulty",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a1/Ghost_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231607",
+      "category": "Deck"
+    },
+    {
+      "name": "Abandoned Deck",
+      "effect": "Start run with no Face Cards in your deck",
+      "unlock": "Win a run with the Green Deck on any difficulty",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/de/Abandoned_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231634",
+      "category": "Deck"
+    },
+    {
+      "name": "Checkered Deck",
+      "effect": "Start run with 26 Spades and 26 Hearts in deck",
+      "unlock": "Win a run with the Black Deck on any difficulty",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a8/Checkered_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231701",
+      "category": "Deck"
+    },
+    {
+      "name": "Zodiac Deck",
+      "effect": "Start run with Tarot Merchant , Planet Merchant , and Overstock",
+      "unlock": "Win a run with any deck on the Red Stake difficulty or harder",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/20/Zodiac_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231726",
+      "category": "Deck"
+    },
+    {
+      "name": "Painted Deck",
+      "effect": "+2 hand size, -1 Joker slot",
+      "unlock": "Win a run with any deck on the Green Stake difficulty or harder",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/8a/Painted_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231748",
+      "category": "Deck"
+    },
+    {
+      "name": "Anaglyph Deck",
+      "effect": "After defeating each Boss Blind , gain a Double Tag",
+      "unlock": "Win a run with any deck on the Black Stake difficulty or harder",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/ac/Anaglyph_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231811",
+      "category": "Deck"
+    },
+    {
+      "name": "Plasma Deck",
+      "effect": "Balance Chips and Mult when calculating score for played hand X2 base Blind size",
+      "unlock": "Win a run with any deck on the Blue Stake difficulty or harder",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/3/3c/Plasma_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231845",
+      "category": "Deck"
+    },
+    {
+      "name": "Erratic Deck",
+      "effect": "All Ranks and Suits in deck are randomized",
+      "unlock": "Win a run with any deck on the Orange Stake difficulty or harder",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/17/Erratic_Deck.png/revision/latest/scale-to-width-down/80?cb=20240313231921",
+      "category": "Deck"
+    }
+  ],
+  "planets": [
+    {
+      "name": "Pluto",
+      "effect": "+1 Mult and +10 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/9/9c/Planet_Pluto.png/revision/latest?cb=20230925224001",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Mercury",
+      "effect": "+1 Mult and +15 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/e7/Planet_Mercury.png/revision/latest?cb=20230925223651",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Uranus",
+      "effect": "+1 Mult and +20 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/5/51/Planet_Uranus.png/revision/latest?cb=20230925223927",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Venus",
+      "effect": "+2 Mult and +20 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/b6/Planet_Venus.png/revision/latest?cb=20230925223826",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Saturn",
+      "effect": "+3 Mult and +30 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/82/Planet_Saturn.png/revision/latest?cb=20230925223909",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Jupiter",
+      "effect": "+2 Mult and +15 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/29/Planet_Jupiter.png/revision/latest?cb=20230925223848",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Earth",
+      "effect": "+2 Mult and +25 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/5/59/Planet_Earth.png/revision/latest?cb=20230925223736",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Mars",
+      "effect": "+3 Mult and +30 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/fa/Planet_Mars.png/revision/latest?cb=20230925223722",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Neptune",
+      "effect": "+4 Mult and +40 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f9/Planet_Neptune.png/revision/latest?cb=20230925223942",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Planet X",
+      "effect": "+3 Mult and +35 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/68/Planet_X.png/revision/latest?cb=20230925224111",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Ceres",
+      "effect": "+4 Mult and +40 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/07/Planet_Ceres.png/revision/latest?cb=20240407004107",
+      "category": "Planet Card"
+    },
+    {
+      "name": "Eris",
+      "effect": "+3 Mult and +50 Chips",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/eb/Planet_Eris.png/revision/latest?cb=20240407004110",
+      "category": "Planet Card"
+    }
+  ],
+  "tarots": [
+    {
+      "name": "The Fool",
+      "effect": "Creates a copy of the last Tarot or Planet card used. ( The Fool excluded)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/61/Tarot_The_Fool.png/revision/latest?cb=20230925220339",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Magician",
+      "effect": "Enhances 2 selected cards to Lucky Cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/78/Tarot_The_Magician.png/revision/latest?cb=20230925220456",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The High Priestess",
+      "effect": "Creates up to 2 random Planet cards (Must have room)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/cc/Tarot_The_High_Priestess.png/revision/latest?cb=20230925220519",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Empress",
+      "effect": "Enhances 2 selected cards to Mult Cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/8b/Tarot_The_Empress.png/revision/latest?cb=20230925220549",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Emperor",
+      "effect": "Creates up to 2 random Tarot cards (Must have room)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/11/Tarot_The_Emperor.png/revision/latest?cb=20230925220604",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Hierophant",
+      "effect": "Enhances 2 selected cards to Bonus Cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/bc/Tarot_The_Hierophant.png/revision/latest?cb=20230925220638",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Lovers",
+      "effect": "Enhances 1 selected card into a Wild Card",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/4c/Tarot_The_Lovers.png/revision/latest?cb=20230925220703",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Chariot",
+      "effect": "Enhances 1 selected card into a Steel Card",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f8/Tarot_The_Chariot.png/revision/latest?cb=20230925220724",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "Justice",
+      "effect": "Enhances 1 selected card into a Glass Card",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/45/Tarot_Justice.png/revision/latest?cb=20230925220748",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Hermit",
+      "effect": "Doubles money (Max of $20 )",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/19/Tarot_The_Hermit.png/revision/latest?cb=20230925220806",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Wheel of Fortune",
+      "effect": "1 in 4 chance to add Foil , Holographic , or Polychrome edition to a random Joker",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/5/57/Tarot_The_Wheel_of_Fortune.png/revision/latest?cb=20230925220831",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "Strength",
+      "effect": "Increases rank of up to 2 selected cards by 1 (Rank order: A→2→3→4→5→6→7→8→9→10→J→Q→K→A)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/7d/Tarot_Strength.png/revision/latest?cb=20230925220915",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Hanged Man",
+      "effect": "Destroys up to 2 selected cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/d6/Tarot_The_Hanged_Man.png/revision/latest?cb=20230925220935",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "Death",
+      "effect": "Select 2 cards, convert the left card into the right card (Drag to rearrange)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/4d/Tarot_Death.png/revision/latest?cb=20230925221002",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "Temperance",
+      "effect": "Gives the total sell value of all current Jokers (Max of $50 )",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/67/Tarot_Temperance.png/revision/latest?cb=20230925221029",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Devil",
+      "effect": "Enhances 1 selected card into a Gold Card",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/72/Tarot_The_Devil.png/revision/latest?cb=20230925221050",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Tower",
+      "effect": "Enhances 1 selected card into a Stone Card",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/af/Tarot_The_Tower.png/revision/latest?cb=20230925221108",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Star",
+      "effect": "Converts up to 3 selected cards to Diamonds",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/e1/Tarot_The_Star.png/revision/latest?cb=20230925221142",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Moon",
+      "effect": "Converts up to 3 selected cards to Clubs",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/29/Tarot_The_Moon.png/revision/latest?cb=20230925221203",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The Sun",
+      "effect": "Converts up to 3 selected cards to Hearts",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/2e/Tarot_The_Sun.png/revision/latest?cb=20230925221221",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "Judgement",
+      "effect": "Creates a random Joker card (without in-run stickers ) (Must have room)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/d9/Tarot_Judgement.png/revision/latest?cb=20230925221239",
+      "category": "Tarot Card"
+    },
+    {
+      "name": "The World",
+      "effect": "Converts up to 3 selected cards to Spades",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/49/Tarot_The_World.png/revision/latest?cb=20230925221302",
+      "category": "Tarot Card"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Uncommon",
+      "effect": "The next shop will have a free Uncommon Joker .",
+      "notes": "The Joker is extra generated, and guaranteed to appear in next shop, which is not affected by Vouchers that relatively lower the weight of Jokers in Shop (see The Shop#Vouchers ), or certain Challenges that Jokers' spawn rate is set to 0.\nCan be stacked with Edition Tags, generating a free Joker with Editions .",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/c0/Uncommon_tag.png/revision/latest?cb=20240224004418",
+      "category": "Tag"
+    },
+    {
+      "name": "Rare",
+      "effect": "The next shop will have a free Rare Joker .",
+      "notes": "1",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/7b/Rare_tag.png/revision/latest?cb=20240224004746",
+      "category": "Tag"
+    },
+    {
+      "name": "Negative",
+      "effect": "The next base edition Joker you find in a Shop becomes Negative (+1 joker slot) and free.",
+      "notes": "If there are no base edition Jokers in the next shop, these tags will instead be stored. Works with Uncommon and Rare Tag if the generated Joker doesn't have an Edition naturally.\nCan be stacked on one shop until there are no base edition Jokers.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/5/51/Negative_tag.png/revision/latest?cb=20240224005608",
+      "category": "Tag"
+    },
+    {
+      "name": "Foil",
+      "effect": "The next base edition Joker you find in a Shop becomes Foil ( +50 Chips ) and free.",
+      "notes": "1",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/84/Foil_tag.png/revision/latest?cb=20240224005802",
+      "category": "Tag"
+    },
+    {
+      "name": "Holographic",
+      "effect": "The next base edition Joker you find in a Shop becomes Holographic ( +10 Mult ) and free.",
+      "notes": "1",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a3/Holographic_tag.png/revision/latest?cb=20240329005059",
+      "category": "Tag"
+    },
+    {
+      "name": "Polychrome",
+      "effect": "The next base edition Joker you find in a Shop becomes Polychrome ( X1.5 Mult ) and free.",
+      "notes": "1",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/0d/Polychrome_tag.png/revision/latest?cb=20240329005107",
+      "category": "Tag"
+    },
+    {
+      "name": "Investment",
+      "effect": "Gain $25 after defeating the next Boss Blind .",
+      "notes": "Can be stacked on one Boss Blind, each adding additional $25 bonus.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/fc/Investment_tag.png/revision/latest?cb=20240329005107",
+      "category": "Tag"
+    },
+    {
+      "name": "Voucher",
+      "effect": "Adds a Voucher to the next Shop.",
+      "notes": "Can be stacked on one shop until all available vouchers appear (excluding bought vouchers and upgrades of unbought vouchers). Added vouchers do not carry over to later shops in the ante.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f5/Voucher_tag.png/revision/latest?cb=20240329005107",
+      "category": "Tag"
+    },
+    {
+      "name": "Boss",
+      "effect": "Re-rolls the next Boss Blind .",
+      "notes": "If the Director's Cut has been redeemed, using the Boss tag to re-roll the next Boss Blind will also use up the one Re-Roll option.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/01/Boss_tag.png/revision/latest?cb=20240329005108",
+      "category": "Tag"
+    },
+    {
+      "name": "Standard",
+      "effect": "Immediately open a free Mega Standard Pack .",
+      "notes": "Other effects of opening Booster Packs (like Red Card and Hallucination ) can be activated as normal.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/42/Standard_tag.png/revision/latest?cb=20240329005108",
+      "category": "Tag"
+    },
+    {
+      "name": "Charm",
+      "effect": "Immediately open a free Mega Arcana Pack .",
+      "notes": "1",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f6/Charm_tag.png/revision/latest?cb=20240329005109",
+      "category": "Tag"
+    },
+    {
+      "name": "Meteor",
+      "effect": "Immediately open a free Mega Celestial Pack .",
+      "notes": "2+",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/8b/Meteor_tag.png/revision/latest?cb=20240329005109",
+      "category": "Tag"
+    },
+    {
+      "name": "Buffoon",
+      "effect": "Immediately open a free Mega Buffoon Pack .",
+      "notes": "2+",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/7d/Buffoon_tag.png/revision/latest?cb=20240329005110",
+      "category": "Tag"
+    },
+    {
+      "name": "Handy",
+      "effect": "Gain $1 for each hand played this run.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/ca/Handy_tag.png/revision/latest?cb=20240329005110",
+      "category": "Tag"
+    },
+    {
+      "name": "Garbage",
+      "effect": "Gain $1 for each unused discard this run.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/05/Garbage_tag.png/revision/latest?cb=20240329005111",
+      "category": "Tag"
+    },
+    {
+      "name": "Ethereal",
+      "effect": "Immediately open a free Spectral Pack .",
+      "notes": "It is the only one among Pack-related Tags that does not give a Mega pack. Other effects of opening Booster Packs (like Red Card and Hallucination ) can be activated as normal.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/c6/Ethereal_tag.png/revision/latest?cb=20240329005111",
+      "category": "Tag"
+    },
+    {
+      "name": "Coupon",
+      "effect": "In the next shop, initial Jokers , Consumables Cards and Booster Packs are free ($0).",
+      "notes": "Other parts of the shop (such as Vouchers and Items generated after rerolls) keep their usual costs.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/43/Coupon_tag.png/revision/latest?cb=20240329005112",
+      "category": "Tag"
+    },
+    {
+      "name": "Double",
+      "effect": "Gives a copy of the next Tag selected (excluding Double Tags).",
+      "notes": "Can be stacked on one Tag earned, each adding one additional copy of (instead of doubling) that Tag.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/ee/Double_tag.png/revision/latest?cb=20240329005113",
+      "category": "Tag"
+    },
+    {
+      "name": "Juggle",
+      "effect": "+3 Hand Size for the next round only.",
+      "notes": "Can be stacked multiple times on the same round, each adding an additional +3 Hand size.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/76/Juggle_tag.png/revision/latest?cb=20240329005113",
+      "category": "Tag"
+    },
+    {
+      "name": "D6",
+      "effect": "In the next Shop , Rerolls start at $0 .",
+      "notes": "The price will go up $1 per Reroll as normal.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/06/D6_tag.png/revision/latest?cb=20240329005114",
+      "category": "Tag"
+    },
+    {
+      "name": "Top-up",
+      "effect": "Create up to 2 Common Jokers (if you have space).",
+      "notes": "The Jokers created cannot have Stickers , like Eternal/Perishable/Rental, even at higher stakes.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/4f/Top-up_tag.png/revision/latest?cb=20240329005114",
+      "category": "Tag"
+    },
+    {
+      "name": "Speed",
+      "effect": "Gives $5 for each Blind you've skipped this run.",
+      "notes": "Guaranteed to give at least $5 , as it includes the Blind skipped to gain this tag.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/16/Speed_tag.png/revision/latest?cb=20240329005115",
+      "category": "Tag"
+    },
+    {
+      "name": "Orbital",
+      "effect": "Upgrades a specified random Poker Hand by three levels.",
+      "notes": "The hand can be a secret hand if it has already been played in this run.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a7/Orbital_tag.png/revision/latest?cb=20240329005116",
+      "category": "Tag"
+    },
+    {
+      "name": "Economy",
+      "effect": "Doubles your money (adds a maximum of $40 ) .",
+      "notes": "If your balance is negative your money is not doubled, instead giving you $0 and essentially wasting the tag.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/cf/Economy_tag.png/revision/latest?cb=20240329005116",
+      "category": "Tag"
+    }
+  ],
+  "spectrals": [
+    {
+      "name": "Familiar",
+      "effect": "Destroy 1 random card in your hand, but add 3 random Enhanced face cards instead.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/2/2c/Spectral_Familiar.png/revision/latest?cb=20250209034109",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Grim",
+      "effect": "Destroy 1 random card in your hand, but add 2 random Enhanced Aces instead.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/e0/Spectral_Grim.png/revision/latest?cb=20250209034110",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Incantation",
+      "effect": "Destroy 1 random card in your hand, but add 4 random Enhanced numbered cards instead.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/65/Spectral_Incantation.png/revision/latest?cb=20250209034112",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Talisman",
+      "effect": "Add a Gold Seal to 1 selected card.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/3/34/Spectral_Talisman.png/revision/latest?cb=20250209034114",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Aura",
+      "effect": "Add Foil , Holographic , or Polychrome edition (determined at random) to 1 selected card in hand.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/47/Spectral_Aura.png/revision/latest?cb=20250209034106",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Wraith",
+      "effect": "Creates a random Rare Joker (must have room), but sets money to $0 .",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/48/Spectral_Wraith.png/revision/latest?cb=20250209034115",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Sigil",
+      "effect": "Converts all cards in hand to a single random suit .",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Spectral_Sigil.png/revision/latest?cb=20250209034114",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Ouija",
+      "effect": "Converts all cards in hand to a single random rank , but -1 Hand Size .",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/fc/Spectral_Ouija.png/revision/latest?cb=20250209034113",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Ectoplasm",
+      "effect": "Add Negative to a random Joker , but -1 Hand Size , plus another -1 hand size for each time Ectoplasm has been used this run, e.g. using Ectoplasm 3 times in the same run decreases hand size by a total of 6 (1+2+3)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/e5/Spectral_Ectoplasm.png/revision/latest?cb=20250209034109",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Immolate",
+      "effect": "Destroys 5 random cards in hand, but gain $20 .",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/d8/Spectral_Immolate.png/revision/latest?cb=20250209034111",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Ankh",
+      "effect": "Creates a copy of 1 of your Jokers at random, then destroys the others, leaving you with two identical Jokers. ( Editions are also copied, except Negative)",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/ec/Spectral_Ankh.png/revision/latest?cb=20250209034053",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Deja Vu",
+      "effect": "Adds a Red Seal to 1 selected card.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a0/Spectral_Deja_Vu.png/revision/latest?cb=20250209034108",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Hex",
+      "effect": "Adds Polychrome to a random Joker , and destroys the rest.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f4/Spectral_Hex.png/revision/latest?cb=20250209034111",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Trance",
+      "effect": "Adds a Blue Seal to 1 selected card.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/78/Spectral_Trance.png/revision/latest?cb=20250209034115",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Medium",
+      "effect": "Adds a Purple Seal to 1 selected card.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/e1/Spectral_Medium.png/revision/latest?cb=20250209034112",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Cryptid",
+      "effect": "Creates 2 exact copies (including Enhancements, Editions and Seals ) of a selected card in your hand.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Spectral_Cryptid.png/revision/latest?cb=20250209034108",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "The Soul",
+      "effect": "Creates a Legendary Joker. (Must have room) Artwork: This card is animated, with the gem beating like a heart, or perhaps something inside is trying to break out...",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/6b/Spectral_The_Soul.png/revision/latest?cb=20250619173423",
+      "category": "Spectral Card"
+    },
+    {
+      "name": "Black Hole",
+      "effect": "Upgrades every poker hand (including secret hands not yet discovered) by one level.",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/00/Spectral_Black_Hole.png/revision/latest?cb=20250209034107",
+      "category": "Spectral Card"
+    }
+  ],
+  "vouchers": [
+    {
+      "name": "Overstock",
+      "effect": "+1 card slot available in shop (to 3 slots)",
+      "unlock": "Spend a total of $2500 at the shop",
+      "notes": "Also immediately restocks any empty card slots in the Shop when purchased",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/8e/Overstock.png/revision/latest/scale-to-width-down/80?cb=20250120194414",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Overstock Plus",
+      "effect": "+1 card slot available in shop (to 4 slots)",
+      "unlock": "Spend a total of $2500 at the shop",
+      "notes": "Also immediately restocks any empty card slots in the Shop when purchased",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/3/3e/Overstock_Plus.png/revision/latest/scale-to-width-down/80?cb=20250120194836",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Clearance Sale",
+      "effect": "All cards and packs in shop are 25% off",
+      "unlock": "Redeem at least 10 Voucher cards in one run",
+      "notes": "Also reduces the sell value of your present jokers Prices are rounded half down",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/71/Clearance_Sale.png/revision/latest/scale-to-width-down/80?cb=20250120195456",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Liquidation",
+      "effect": "All cards and packs in shop are 50% off",
+      "unlock": "Redeem at least 10 Voucher cards in one run",
+      "notes": "Also reduces the sell value of your present jokers Prices are rounded half down",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/6c/Liquidation.png/revision/latest/scale-to-width-down/80?cb=20250120194315",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Hone",
+      "effect": "Foil, Holographic, and Polychrome cards appear 2x more often",
+      "unlock": "Have at least 5 Joker cards with Foil, Holographic, or Polychrome (or Negative) effect",
+      "notes": "Polychrome on Jokers actually appears 3x more often for Hone and 7x more often for Glow Up",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/4b/Hone.png/revision/latest/scale-to-width-down/80?cb=20250120194254",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Glow Up",
+      "effect": "Foil, Holographic, and Polychrome cards appear 4x more often",
+      "unlock": "Have at least 5 Joker cards with Foil, Holographic, or Polychrome (or Negative) effect",
+      "notes": "Polychrome on Jokers actually appears 3x more often for Hone and 7x more often for Glow Up",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/d9/Glow_Up.png/revision/latest/scale-to-width-down/80?cb=20250120194228",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Reroll Surplus",
+      "effect": "Rerolls cost $2 less",
+      "unlock": "Reroll the shop a total of 100 times",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a4/Reroll_Surplus.png/revision/latest/scale-to-width-down/80?cb=20250120194506",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Reroll Glut",
+      "effect": "Rerolls cost an additional $2 less",
+      "unlock": "Reroll the shop a total of 100 times",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/4b/Reroll_Glut.png/revision/latest/scale-to-width-down/80?cb=20250120194500",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Crystal Ball",
+      "effect": "+1 consumable slot",
+      "unlock": "Use a total of 25 Tarot cards from booster packs",
+      "notes": "Omen Globe has a 20% individual chance to replace the Tarot card with a Spectral card for every card in the Arcana Pack",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/e2/Crystal_Ball.png/revision/latest/scale-to-width-down/80?cb=20250120195507",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Omen Globe",
+      "effect": "Spectral cards may appear in any of the Arcana Packs",
+      "unlock": "Use a total of 25 Tarot cards from booster packs",
+      "notes": "Omen Globe has a 20% individual chance to replace the Tarot card with a Spectral card for every card in the Arcana Pack",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/fb/Omen_Globe.png/revision/latest/scale-to-width-down/80?cb=20250120194401",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Telescope",
+      "effect": "Celestial Packs always contain the Planet card for your most played poker hand",
+      "unlock": "Use a total of 25 Planet cards from booster packs",
+      "notes": "Telescope picks the higher tier hand in case of multiple most played hands",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/6/6c/Telescope.png/revision/latest/scale-to-width-down/80?cb=20250120194537",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Observatory",
+      "effect": "Planet cards in your consumable area give X1.5 Mult for their specified poker hand",
+      "unlock": "Use a total of 25 Planet cards from booster packs",
+      "notes": "Telescope picks the higher tier hand in case of multiple most played hands",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/b4/Observatory.png/revision/latest/scale-to-width-down/80?cb=20250120194355",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Grabber",
+      "effect": "Permanently gain +1 hand per round",
+      "unlock": "Play a total of 2500 cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/ee/Grabber.png/revision/latest/scale-to-width-down/80?cb=20250120194237",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Nacho Tong",
+      "effect": "Permanently gain an additional +1 hand per round",
+      "unlock": "Play a total of 2500 cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/b6/Nacho_Tong.png/revision/latest/scale-to-width-down/80?cb=20250120194344",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Wasteful",
+      "effect": "Permanently gain +1 discard each round",
+      "unlock": "Discard a total of 2500 cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/df/Wasteful.png/revision/latest/scale-to-width-down/80?cb=20250120194543",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Recyclomancy",
+      "effect": "Permanently gain an additional +1 discard each round",
+      "unlock": "Discard a total of 2500 cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/c4/Recyclomancy.png/revision/latest/scale-to-width-down/80?cb=20250120194455",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Tarot Merchant",
+      "effect": "Tarot cards appear 2X more frequently in the shop",
+      "unlock": "Buy a total of 50 Tarot cards from the shop",
+      "notes": "For details, see The Shop#Vouchers",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/3/32/Tarot_Merchant.png/revision/latest/scale-to-width-down/80?cb=20250120194523",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Tarot Tycoon",
+      "effect": "Tarot cards appear 4X more frequently in the shop",
+      "unlock": "Buy a total of 50 Tarot cards from the shop",
+      "notes": "For details, see The Shop#Vouchers",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/9/9e/Tarot_Tycoon.png/revision/latest/scale-to-width-down/80?cb=20250120194531",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Planet Merchant",
+      "effect": "Planet cards appear 2X more frequently in the shop",
+      "unlock": "Buy a total of 50 Planet cards from the shop",
+      "notes": "For details, see The Shop#Vouchers",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/bf/Planet_Merchant.png/revision/latest/scale-to-width-down/80?cb=20250120194444",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Planet Tycoon",
+      "effect": "Planet cards appear 4X more frequently in the shop",
+      "unlock": "Buy a total of 50 Planet cards from the shop",
+      "notes": "For details, see The Shop#Vouchers",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/1/10/Planet_Tycoon.png/revision/latest/scale-to-width-down/80?cb=20250120194449",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Seed Money",
+      "effect": "Raise the cap on interest earned in each round to $10",
+      "unlock": "Max out the interest per round earnings for ten consecutive rounds",
+      "notes": "Does nothing when playing the Green Deck.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/be/Seed_Money.png/revision/latest/scale-to-width-down/80?cb=20250120194517",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Money Tree",
+      "effect": "Raise the cap on interest earned in each round to $20",
+      "unlock": "Max out the interest per round earnings for ten consecutive rounds",
+      "notes": "Does nothing when playing the Green Deck.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/9/9a/Money_Tree.png/revision/latest/scale-to-width-down/80?cb=20250120194335",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Blank",
+      "effect": "Does nothing?",
+      "unlock": "Redeem Blank 10 total times",
+      "notes": "The Antimatter Voucher is always displayed in game as if it was a negative edition and applies the same effect as negative Jokers",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/d/d2/Blank.png/revision/latest/scale-to-width-down/80?cb=20250120194138",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Antimatter",
+      "effect": "+1 Joker slot",
+      "unlock": "Redeem Blank 10 total times",
+      "notes": "The Antimatter Voucher is always displayed in game as if it was a negative edition and applies the same effect as negative Jokers",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/c/cd/Antimatter.png/revision/latest/scale-to-width-down/80?cb=20250508200257",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Magic Trick",
+      "effect": "Playing cards can be purchased from the shop",
+      "unlock": "Buy a total of 20 Playing cards from the shop",
+      "notes": "Illusion is currently (v1.0.1o-FULL) bugged, and cards in the shop cannot have seals, only enhancements and/or editions, and is unaffected by Hone/Glow Up.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/b/b4/Magic_Trick.png/revision/latest/scale-to-width-down/80?cb=20250120194327",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Illusion",
+      "effect": "Playing cards in shop may have an Enhancement , Edition , and/or a Seal",
+      "unlock": "Buy a total of 20 Playing cards from the shop",
+      "notes": "Illusion is currently (v1.0.1o-FULL) bugged, and cards in the shop cannot have seals, only enhancements and/or editions, and is unaffected by Hone/Glow Up.",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/4/47/Illusion.png/revision/latest/scale-to-width-down/80?cb=20250120194303",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Hieroglyph",
+      "effect": "-1 Ante, -1 hand each round",
+      "unlock": "Reach Ante level 12",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/7/70/Hieroglyph.png/revision/latest/scale-to-width-down/80?cb=20250120194246",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Petroglyph",
+      "effect": "-1 Ante, -1 discard each round",
+      "unlock": "Reach Ante level 12",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f3/Petroglyph.png/revision/latest/scale-to-width-down/80?cb=20250120194437",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Director's Cut",
+      "effect": "Reroll Boss Blind 1 time per Ante, $10 per roll",
+      "unlock": "Discover 25 Blinds",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/8c/Director%27s_Cut.png/revision/latest/scale-to-width-down/80?cb=20250120194217",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Retcon",
+      "effect": "Reroll Boss Blind unlimited times, $10 per roll",
+      "unlock": "Discover 25 Blinds",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/9/92/Retcon.png/revision/latest/scale-to-width-down/80?cb=20250120194512",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Paint Brush",
+      "effect": "+1 Hand Size",
+      "unlock": "Reduce your hand size down to 5 cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/e/ea/Paint_Brush.png/revision/latest/scale-to-width-down/80?cb=20250120195647",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Palette",
+      "effect": "+1 Hand Size again",
+      "unlock": "Reduce your hand size down to 5 cards",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/f/f6/Palette.png/revision/latest/scale-to-width-down/80?cb=20250120194432",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Magnet",
+      "effect": "Your 1 most played card this run is always drawn to hand at start of round",
+      "unlock": "Play one card at least 10 times in one run",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/8/8c/Magnet.png/revision/latest/scale-to-width-down/80?cb=20240624095458",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Electromagnet",
+      "effect": "Your 3 most played cards are always drawn to your hand first",
+      "unlock": "Play one card at least 10 times in one run",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/a7/Electromagnet.png/revision/latest/scale-to-width-down/80?cb=20240331054506",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Pattern",
+      "effect": "Spawns your all time most used Tarot/Planet card, if you have room",
+      "unlock": "Buy the Polychrome edition of your most used Joker from the shop",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/9/91/Pattern.png/revision/latest/scale-to-width-down/80?cb=20240317103530",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Tesselation",
+      "effect": "Spawns your all time most used Joker card, if you have room",
+      "unlock": "Buy the Polychrome edition of your most used Joker from the shop",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/0c/Tesselation.png/revision/latest/scale-to-width-down/80?cb=20240317103731",
+      "category": "Upgraded Voucher"
+    },
+    {
+      "name": "Silver Spoon",
+      "effect": "Start your next run with a bonus of $5",
+      "unlock": "Use the Silver Spoon in 3 consecutive runs",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/0/09/BigSpoon.png/revision/latest/scale-to-width-down/80?cb=20240907114849",
+      "category": "Base Voucher"
+    },
+    {
+      "name": "Heirloom",
+      "effect": "Start your next run with a bonus of $15",
+      "unlock": "Use the Silver Spoon in 3 consecutive runs",
+      "notes": "",
+      "imageUrl": "https://static.wikia.nocookie.net/balatrogame/images/a/ad/BigGoldSpoon.png/revision/latest/scale-to-width-down/80?cb=20240907114933",
+      "category": "Upgraded Voucher"
+    }
+  ]
+}
