@@ -116,4 +116,17 @@ describe("tier list effect copy", () => {
       "+80 Chips if played hand contains a Two Pair"
     );
   });
+
+  it("keeps Glass Joker confirmed at C-3 with the official Korean name", () => {
+    const jokerList = tierLists.find((tierList) => tierList.id === "jokers")!;
+    const glassJoker = jokerList.items.find(
+      (item) => item.sourcePosition === "C-3"
+    );
+
+    expect(glassJoker?.nameEn).toBe("Glass Joker");
+    expect(glassJoker?.nameKo).toBe("유리 조커");
+    expect(glassJoker?.imageSrc).toBe("/assets/jokers/glass-joker.webp");
+    expect(glassJoker?.uncertain).toBeUndefined();
+    expect(glassJoker?.notes).toBeUndefined();
+  });
 });

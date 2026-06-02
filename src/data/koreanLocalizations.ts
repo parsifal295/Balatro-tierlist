@@ -350,7 +350,7 @@ export const koreanLocalizationsByName: Record<string, KoreanLocalization> = {
     effectKo: "매 라운드가 종료될떄 마다 모든 조커 및 소모품 카드에 $1의 판매가를 추가합니다"
   },
   "Glass Joker": {
-    nameKo: "글래스 조커",
+    nameKo: "유리 조커",
     effectKo: "유리 카드가 파괴될 때마다 이 조커가 X0.75 배수를 얻습니다. (현재 X1 배수)"
   },
   "Glow Up": {

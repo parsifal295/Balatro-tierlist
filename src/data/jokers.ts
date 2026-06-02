@@ -823,8 +823,6 @@ export const jokerCards: JokerCard[] = [
     rarity: "Uncommon",
     category: "Multiplicative Mult",
     sourcePosition: "C-3",
-    notes: "원본 이미지 압축 때문에 Joker/Jolly 계열과 혼동 가능성이 있어 표시했습니다.",
-    uncertain: true,
   },
   {
     id: "flash-card",
