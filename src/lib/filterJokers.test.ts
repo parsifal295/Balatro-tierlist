@@ -13,7 +13,9 @@ const sampleJokers: JokerCard[] = [
     effectEn: "Copies ability of Joker to the right",
     rarity: "Rare",
     category: "Effect",
-    jokerTypes: ["passive"]
+    jokerTypes: ["passive"],
+    guideKo: "복사 조커는 배치를 바꾸며 핵심 효과를 두 번 쓰는 운용이 중요합니다.",
+    guideEn: "Copy Jokers care about positioning around the best available effect."
   },
   {
     id: "jolly-joker",
@@ -24,7 +26,9 @@ const sampleJokers: JokerCard[] = [
     effectEn: "+8 Mult if played hand contains a Pair",
     rarity: "Common",
     category: "Additive Mult",
-    jokerTypes: ["additiveMult"]
+    jokerTypes: ["additiveMult"],
+    guideKo: "페어 계열 핸드를 자주 만들 수 있는 덱에서 안정적으로 발동합니다.",
+    guideEn: "Pair-based decks can trigger this reliably."
   }
 ];
 
@@ -34,6 +38,15 @@ describe("filterJokers", () => {
       sampleJokers[0]
     ]);
     expect(filterJokers(sampleJokers, { query: "페어" })).toEqual([
+      sampleJokers[1]
+    ]);
+  });
+
+  it("matches guide summary text", () => {
+    expect(filterJokers(sampleJokers, { query: "배치" })).toEqual([
+      sampleJokers[0]
+    ]);
+    expect(filterJokers(sampleJokers, { query: "trigger this reliably" })).toEqual([
       sampleJokers[1]
     ]);
   });

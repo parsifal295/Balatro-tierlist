@@ -7,6 +7,8 @@ export type FilterableTierItem = {
   rarity?: string;
   category?: string;
   jokerTypes?: readonly string[];
+  guideKo?: string;
+  guideEn?: string;
   notes?: string;
 };
 
@@ -87,6 +89,8 @@ export function filterTierItems<T extends FilterableTierItem>(
       item.rarity,
       item.category,
       ...(item.jokerTypes ?? []),
+      item.guideKo,
+      item.guideEn,
       item.notes
     ]
       .filter(Boolean)

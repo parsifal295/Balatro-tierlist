@@ -13,6 +13,9 @@ export type JokerCard = {
   rarity?: string;
   category?: string;
   jokerTypes?: readonly JokerType[];
+  guideKo?: string;
+  guideEn?: string;
+  guideSource?: string;
   notes?: string;
   uncertain?: boolean;
   sourcePosition?: string;

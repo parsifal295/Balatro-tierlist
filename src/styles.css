@@ -721,6 +721,7 @@ legend {
 }
 
 .effect-panel,
+.guide-panel,
 .notes-panel {
   margin-bottom: 14px;
   padding: 14px;
@@ -729,6 +730,7 @@ legend {
 }
 
 .effect-panel h3,
+.guide-panel h3,
 .notes-panel h3 {
   display: inline-flex;
   align-items: center;
@@ -739,10 +741,24 @@ legend {
 }
 
 .effect-panel p,
+.guide-panel p,
 .notes-panel p {
   margin-bottom: 0;
   color: var(--ink);
   line-height: 1.55;
+}
+
+.guide-source-link {
+  display: inline-flex;
+  margin-top: 10px;
+  color: var(--amber);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.guide-source-link:hover {
+  text-decoration: underline;
 }
 
 .effect-source {

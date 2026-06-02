@@ -1,9 +1,17 @@
 import { useEffect, useRef, useState } from "react";
-import { AlertTriangle, BadgeInfo, Copy, Sparkles, X } from "lucide-react";
+import {
+  AlertTriangle,
+  BadgeInfo,
+  BookOpenText,
+  Copy,
+  Sparkles,
+  X
+} from "lucide-react";
 import type { TierItem } from "../data/tierLists";
 import {
   getEffectText,
   getFacetLabel,
+  getGuideText,
   getItemName,
   getJokerTypeLabel,
   getNotesText,
@@ -93,6 +101,7 @@ export function TierItemDetailModal({
   const copy = t(language);
   const displayName = getItemName(item, language);
   const effectText = getEffectText(item, language);
+  const guideText = getGuideText(item, language);
   const notesText = getNotesText(item.notes, language);
   const jokerTypes = item.jokerTypes ?? [];
   const hasJokerTypes = jokerTypes.length > 0;
@@ -207,6 +216,26 @@ export function TierItemDetailModal({
               </p>
             )}
           </section>
+
+          {guideText && (
+            <section className="guide-panel">
+              <h3>
+                <BookOpenText aria-hidden="true" size={17} />
+                {copy.guide}
+              </h3>
+              <p>{guideText}</p>
+              {item.guideSource && (
+                <a
+                  className="guide-source-link"
+                  href={item.guideSource}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {copy.guideSource}
+                </a>
+              )}
+            </section>
+          )}
 
           {notesText && (
             <section className="notes-panel">

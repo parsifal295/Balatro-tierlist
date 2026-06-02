@@ -47,6 +47,8 @@ const uiCopy = {
     untracked: "기록 없음",
     effect: "효과",
     englishSource: "영문 원문",
+    guide: "공략",
+    guideSource: "나무위키 공략 참고",
     notes: "메모",
     copySummary: "항목 요약 복사",
     copiedFallback: "요약 복사"
@@ -81,6 +83,8 @@ const uiCopy = {
     untracked: "Untracked",
     effect: "Effect",
     englishSource: "English source",
+    guide: "Guide",
+    guideSource: "NamuWiki guide reference",
     notes: "Notes",
     copySummary: "Copy item summary",
     copiedFallback: "Copy summary"
@@ -302,6 +306,10 @@ export function getItemName(item: TierItem, language: Language) {
 
 export function getEffectText(item: TierItem, language: Language) {
   return language === "ko" ? item.effectKo : item.effectEn ?? item.effectKo;
+}
+
+export function getGuideText(item: TierItem, language: Language) {
+  return language === "ko" ? item.guideKo : item.guideEn ?? item.guideKo;
 }
 
 export function getNotesText(notes: string | undefined, language: Language) {

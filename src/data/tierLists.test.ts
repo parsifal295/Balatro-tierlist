@@ -71,6 +71,33 @@ describe("tier list effect copy", () => {
     );
   });
 
+  it("adds NamuWiki guide summaries to every Joker item", () => {
+    const jokerList = tierLists.find((tierList) => tierList.id === "jokers");
+
+    expect(jokerList).toBeTruthy();
+
+    for (const joker of jokerList!.items) {
+      expect(joker.guideKo, joker.nameEn).toBeTruthy();
+      expect(joker.guideKo, joker.nameEn).toMatch(/[가-힣]/);
+      expect(joker.guideSource, joker.nameEn).toContain("namu.wiki");
+    }
+  });
+
+  it("keeps specific NamuWiki guide guidance for copy and glass Jokers", () => {
+    const jokerByEnglishName = new Map(
+      tierLists
+        .find((tierList) => tierList.id === "jokers")!
+        .items.map((item) => [item.nameEn, item])
+    );
+
+    expect(jokerByEnglishName.get("Blueprint")?.guideKo).toContain("오른쪽");
+    expect(jokerByEnglishName.get("Blueprint")?.guideKo).toContain("복사");
+    expect(jokerByEnglishName.get("Brainstorm")?.guideKo).toContain("왼쪽");
+    expect(jokerByEnglishName.get("Glass Joker")?.guideKo).toContain("유리 카드");
+    expect(jokerByEnglishName.get("Glass Joker")?.guideKo).toContain("성장");
+    expect(jokerByEnglishName.get("Clever Joker")?.guideKo).toContain("투 페어");
+  });
+
   it("keeps Blackboard and Gluttonous Joker in their corrected source tiers", () => {
     const jokerByEnglishName = new Map(
       tierLists

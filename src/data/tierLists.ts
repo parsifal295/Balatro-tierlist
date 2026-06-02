@@ -1,5 +1,6 @@
 import { jokerCards, rarityOrder, tierLabels, tierOrder } from "./jokers";
 import { normalizeEffectText, translateEffect } from "./effectTranslations";
+import { getJokerGuide } from "./jokerGuides";
 import { getKoreanLocalization } from "./koreanLocalizations";
 import { getJokerTypes, type JokerType } from "./jokerTypes";
 
@@ -23,6 +24,9 @@ export type TierItem = {
   rarity?: string;
   category?: string;
   jokerTypes?: readonly JokerType[];
+  guideKo?: string;
+  guideEn?: string;
+  guideSource?: string;
   notes?: string;
   uncertain?: boolean;
   sourcePosition?: string;
@@ -68,10 +72,17 @@ const jokerTiers: TierDefinition[] = tierOrder.map((tier) => ({
   textColor: "#11100e",
 }));
 
-const jokerItems: TierItem[] = jokerCards.map((joker) => ({
-  ...joker,
-  jokerTypes: getJokerTypes(joker)
-}));
+const jokerItems: TierItem[] = jokerCards.map((joker) => {
+  const guide = getJokerGuide(joker);
+
+  return {
+    ...joker,
+    jokerTypes: getJokerTypes(joker),
+    guideKo: guide.ko,
+    guideEn: guide.en,
+    guideSource: guide.source
+  };
+});
 
 const decksTiers: TierDefinition[] = [
   {
