@@ -2,6 +2,7 @@ import type { Dispatch, SetStateAction } from "react";
 import type { TierDefinition, TierListId } from "../data/tierLists";
 import type { JokerType } from "../data/jokerTypes";
 import { getTierLabel, type Language } from "../i18n";
+import { isRarityName, RarityBadge } from "./RarityBadge";
 
 type FiltersBarProps = {
   tiers: TierDefinition[];
@@ -80,11 +81,12 @@ export function FiltersBar({
           <div className="chip-row">
             {facets.map((facet) => {
               const isSelected = selectedFacets.includes(facet);
+              const isRarityFacet = isRarityName(facet);
 
               return (
                 <button
                   key={facet}
-                  className="filter-chip rarity-chip"
+                  className={`filter-chip${isRarityFacet ? " rarity-chip" : ""}`}
                   data-rarity={facet}
                   data-selected={isSelected}
                   type="button"
@@ -95,7 +97,11 @@ export function FiltersBar({
                     )
                   }
                 >
-                  {getFacetLabel(facet)}
+                  {isRarityFacet ? (
+                    <RarityBadge rarity={facet} language={language} />
+                  ) : (
+                    getFacetLabel(facet)
+                  )}
                 </button>
               );
             })}

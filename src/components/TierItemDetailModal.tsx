@@ -18,6 +18,7 @@ import {
   t,
   type Language
 } from "../i18n";
+import { isRarityName, RarityBadge } from "./RarityBadge";
 
 type TierItemDetailModalProps = {
   item: TierItem | null;
@@ -174,7 +175,13 @@ export function TierItemDetailModal({
             <div>
               <dt>{copy.rarity}</dt>
               <dd>
-                {item.rarity ? getFacetLabel(item.rarity, language) : copy.notAvailable}
+                {isRarityName(item.rarity) ? (
+                  <RarityBadge rarity={item.rarity} language={language} />
+                ) : item.rarity ? (
+                  getFacetLabel(item.rarity, language)
+                ) : (
+                  copy.notAvailable
+                )}
               </dd>
             </div>
             {!hasJokerTypes && (

@@ -19,3 +19,20 @@ describe("responsive modal styles", () => {
     );
   });
 });
+
+describe("rarity badge styles", () => {
+  it("uses game-like rarity colors for every rarity badge", () => {
+    expect(styles).toMatch(
+      /\.rarity-badge\[data-rarity="Common"\] \{[\s\S]*background: #1797f4;/
+    );
+    expect(styles).toMatch(
+      /\.rarity-badge\[data-rarity="Uncommon"\] \{[\s\S]*background: #35b978;/
+    );
+    expect(styles).toMatch(
+      /\.rarity-badge\[data-rarity="Rare"\] \{[\s\S]*background: #f2574d;/
+    );
+    expect(styles).toMatch(
+      /\.rarity-badge\[data-rarity="Legendary"\] \{[\s\S]*background: #9b72e7;/
+    );
+  });
+});

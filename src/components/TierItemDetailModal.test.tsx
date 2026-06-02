@@ -19,7 +19,7 @@ afterEach(() => {
 
 describe("TierItemDetailModal", () => {
   it("shows joker types without the legacy category field for jokers", () => {
-    renderModal({
+    const { container } = renderModal({
       id: "canio",
       nameEn: "Canio",
       nameKo: "카니오",
@@ -36,7 +36,9 @@ describe("TierItemDetailModal", () => {
     });
 
     expect(screen.queryByText("분류")).not.toBeInTheDocument();
-    expect(screen.getByText("레전더리")).toBeInTheDocument();
+    const rarityBadge = container.querySelector(".rarity-badge");
+    expect(rarityBadge).toHaveAttribute("data-rarity", "Legendary");
+    expect(rarityBadge).toHaveTextContent("레전더리 (Legendary)");
     expect(screen.getByText("조커 종류")).toBeInTheDocument();
     expect(screen.getByText("곱배수, 성장형, 카드 파괴")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "공략" })).toBeInTheDocument();

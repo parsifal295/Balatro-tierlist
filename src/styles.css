@@ -393,20 +393,60 @@ legend {
   color: var(--amber);
 }
 
+.rarity-chip {
+  padding: 2px;
+  background: #11100e;
+}
+
+.rarity-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  max-width: 100%;
+  padding: 0 10px;
+  border-radius: 7px;
+  color: #fff8ec;
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 1px 0 rgba(17, 16, 14, 0.22);
+  white-space: nowrap;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(17, 16, 14, 0.22);
+}
+
+.rarity-badge[data-rarity="Common"] {
+  background: #1797f4;
+}
+
+.rarity-badge[data-rarity="Uncommon"] {
+  background: #35b978;
+}
+
+.rarity-badge[data-rarity="Rare"] {
+  background: #f2574d;
+}
+
+.rarity-badge[data-rarity="Legendary"] {
+  background: #9b72e7;
+}
+
 .rarity-chip[data-rarity="Common"][data-selected="true"] {
-  border-color: #b9b1a1;
+  border-color: #1797f4;
 }
 
 .rarity-chip[data-rarity="Uncommon"][data-selected="true"] {
-  border-color: var(--green);
+  border-color: #35b978;
 }
 
 .rarity-chip[data-rarity="Rare"][data-selected="true"] {
-  border-color: var(--red);
+  border-color: #f2574d;
 }
 
 .rarity-chip[data-rarity="Legendary"][data-selected="true"] {
-  border-color: var(--violet);
+  border-color: #9b72e7;
 }
 
 .joker-type-chip[data-selected="true"] {
