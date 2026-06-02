@@ -70,4 +70,19 @@ describe("tier list effect copy", () => {
       expect.arrayContaining(["additiveMult", "probability", "decay"])
     );
   });
+
+  it("keeps Blackboard and Gluttonous Joker in their corrected source tiers", () => {
+    const jokerByEnglishName = new Map(
+      tierLists
+        .find((tierList) => tierList.id === "jokers")!
+        .items.map((item) => [item.nameEn, item])
+    );
+
+    expect(jokerByEnglishName.get("Blackboard")?.tier).toBe("S");
+    expect(jokerByEnglishName.get("Blackboard")?.sourcePosition).toBe("S-2");
+    expect(jokerByEnglishName.get("Gluttonous Joker")?.tier).toBe("C");
+    expect(jokerByEnglishName.get("Gluttonous Joker")?.sourcePosition).toBe(
+      "C-33"
+    );
+  });
 });
