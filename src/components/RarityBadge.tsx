@@ -16,7 +16,7 @@ export function isRarityName(value: string | undefined): value is RarityName {
 export function getRarityBadgeLabel(rarity: RarityName, language: Language) {
   const label = rarityLabels[rarity];
 
-  return language === "ko" ? `${label.ko} (${label.en})` : label.en;
+  return language === "ko" ? label.ko : label.en;
 }
 
 type RarityBadgeProps = {

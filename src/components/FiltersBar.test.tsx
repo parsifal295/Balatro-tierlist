@@ -29,11 +29,11 @@ describe("FiltersBar", () => {
       />
     );
 
-    expect(screen.getByRole("button", { name: "일반 (Common)" })).toHaveAttribute(
+    expect(screen.getByRole("button", { name: "일반" })).toHaveAttribute(
       "data-rarity",
       "Common"
     );
-    expect(screen.getByRole("button", { name: "레어 (Rare)" })).toHaveAttribute(
+    expect(screen.getByRole("button", { name: "레어" })).toHaveAttribute(
       "data-selected",
       "true"
     );

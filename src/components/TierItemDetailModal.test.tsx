@@ -38,7 +38,8 @@ describe("TierItemDetailModal", () => {
     expect(screen.queryByText("분류")).not.toBeInTheDocument();
     const rarityBadge = container.querySelector(".rarity-badge");
     expect(rarityBadge).toHaveAttribute("data-rarity", "Legendary");
-    expect(rarityBadge).toHaveTextContent("레전더리 (Legendary)");
+    expect(rarityBadge).toHaveTextContent("레전더리");
+    expect(rarityBadge).not.toHaveTextContent("Legendary");
     expect(screen.getByText("조커 종류")).toBeInTheDocument();
     expect(screen.getByText("곱배수, 성장형, 카드 파괴")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "공략" })).toBeInTheDocument();
