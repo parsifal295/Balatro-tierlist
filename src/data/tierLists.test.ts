@@ -85,4 +85,35 @@ describe("tier list effect copy", () => {
       "C-33"
     );
   });
+
+  it("keeps corrected source positions for Sly, Clever, and Jolly Joker", () => {
+    const jokerList = tierLists.find((tierList) => tierList.id === "jokers")!;
+    const cardAtC2 = jokerList.items.find(
+      (item) => item.sourcePosition === "C-2"
+    );
+    const cardAtC9 = jokerList.items.find(
+      (item) => item.sourcePosition === "C-9"
+    );
+    const cardAtD16 = jokerList.items.find(
+      (item) => item.sourcePosition === "D-16"
+    );
+
+    expect(cardAtC2?.nameEn).toBe("Jolly Joker");
+    expect(cardAtC2?.nameKo).toBe("쾌활한 조커");
+    expect(cardAtC2?.imageSrc).toBe("/assets/jokers/jolly-joker.webp");
+    expect(cardAtC2?.effectEn).toBe("+8 Mult if played hand contains a Pair");
+
+    expect(cardAtC9?.nameEn).toBe("Sly Joker");
+    expect(cardAtC9?.nameKo).toBe("교활한 조커");
+    expect(cardAtC9?.imageSrc).toBe("/assets/jokers/sly-joker.webp");
+    expect(cardAtC9?.effectEn).toBe("+50 Chips if played hand contains a Pair");
+
+    expect(cardAtD16?.nameEn).toBe("Clever Joker");
+    expect(cardAtD16?.nameKo).toBe("영리한 조커");
+    expect(cardAtD16?.imageSrc).toBe("/assets/jokers/clever-joker.webp");
+    expect(cardAtD16?.category).toBe("Chips");
+    expect(cardAtD16?.effectEn).toBe(
+      "+80 Chips if played hand contains a Two Pair"
+    );
+  });
 });
