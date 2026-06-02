@@ -898,26 +898,133 @@ legend {
     transform: none;
   }
 
+  .modal-backdrop {
+    padding: 8px;
+  }
+
   .joker-modal {
-    grid-template-columns: 1fr;
-    gap: 14px;
-    padding: 18px;
+    grid-template-columns: minmax(72px, 86px) minmax(0, 1fr);
+    grid-template-areas:
+      "art title"
+      "meta meta"
+      "effect effect"
+      "guide guide"
+      "notes notes"
+      "copy copy";
+    align-items: start;
+    gap: 10px;
+    width: min(100%, calc(100dvw - 16px));
+    max-height: calc(100dvh - 16px);
+    padding: 12px;
   }
 
   .modal-content {
+    display: contents;
     padding-right: 0;
   }
 
   .modal-art-panel {
-    min-height: 230px;
+    grid-area: art;
+    align-self: start;
+    min-height: 0;
+    aspect-ratio: 5 / 7;
+    padding: 5px;
   }
 
   .modal-art-panel img {
-    width: 150px;
+    width: min(100%, 74px);
+    max-height: 104px;
+    object-fit: contain;
+  }
+
+  .modal-title-row {
+    grid-area: title;
+    align-self: center;
+    min-width: 0;
+    min-height: 96px;
+    margin-bottom: 0;
+    padding-right: 44px;
+  }
+
+  .modal-title-row > div {
+    min-width: 0;
+  }
+
+  .modal-title-row .eyebrow {
+    margin-bottom: 4px;
+    font-size: 0.68rem;
+  }
+
+  .modal-title-row h2 {
+    font-size: clamp(1.42rem, 7vw, 2rem);
+    line-height: 1.05;
+  }
+
+  .modal-subtitle {
+    margin-top: 5px;
+    font-size: 0.9rem;
   }
 
   .detail-grid {
-    grid-template-columns: 1fr;
+    grid-area: meta;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    margin-bottom: 0;
+  }
+
+  .detail-grid div {
+    padding: 8px;
+  }
+
+  .detail-grid dt {
+    font-size: 0.66rem;
+  }
+
+  .detail-grid dd {
+    font-size: 0.93rem;
+    line-height: 1.25;
+  }
+
+  .effect-panel {
+    grid-area: effect;
+  }
+
+  .guide-panel {
+    grid-area: guide;
+  }
+
+  .notes-panel {
+    grid-area: notes;
+  }
+
+  .effect-panel,
+  .guide-panel,
+  .notes-panel {
+    margin-bottom: 0;
+    padding: 12px;
+  }
+
+  .effect-panel h3,
+  .guide-panel h3,
+  .notes-panel h3 {
+    margin-bottom: 8px;
+  }
+
+  .effect-panel p,
+  .guide-panel p,
+  .notes-panel p {
+    font-size: 0.92rem;
+    line-height: 1.48;
+  }
+
+  .effect-source {
+    margin-top: 8px;
+  }
+
+  .copy-button {
+    grid-area: copy;
+    margin-top: 0;
+    min-height: 42px;
   }
 }
 
