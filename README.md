@@ -48,6 +48,13 @@ Balatro 카드와 아이템 티어리스트를 검색 가능한 웹앱으로 정
 
 ## 로컬 실행
 
+Node.js 22.23.4 보안 패치 버전을 사용합니다. nvm 사용 시 먼저 실행합니다.
+
+```bash
+nvm install
+nvm use
+```
+
 ```bash
 npm install
 npm run dev
